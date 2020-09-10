@@ -3,7 +3,7 @@
 def valid_move?(board, index)
   if (board[index] == " ") || (board[index] == nil)
     move = true
-  elsif (board[index] != nil )
+  elsif [index] == nil )
     move = false 
   else 
     move = false
