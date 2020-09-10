@@ -14,3 +14,4 @@ def position_taken?(board, index)
     taken = true 
   end
 end
+end
