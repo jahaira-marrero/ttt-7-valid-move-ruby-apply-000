@@ -6,11 +6,4 @@ def valid_move?(board, index)
   else 
     move = false
   end
-
-def position_taken?(board, index)
-  if (board[index] == nil)
-    taken = true 
-  else 
-    taken = false 
-  end
 end
