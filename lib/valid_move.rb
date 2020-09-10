@@ -8,9 +8,9 @@ end
 
 def position_taken?(valid_move)
   if valid_move != nil
-    taken = false 
-  else 
     taken = true 
+  else 
+    taken = false 
   end
 end
 end
