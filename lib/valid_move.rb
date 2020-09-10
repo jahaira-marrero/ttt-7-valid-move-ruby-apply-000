@@ -2,6 +2,8 @@
 def valid_move?(board, index)
   if (board[index] == " ") || (board[index] == nil)
     taken = false
+  elsif (board[index] != " ") || (board[index] != nil)
+  taken = true
   else 
     taken = true
   end
