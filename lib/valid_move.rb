@@ -13,4 +13,3 @@ def position_taken?(board_index)
     taken = false 
   end
 end
-end
